@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+	margin: none;
+	padding: none;
+}
+
+
+.menu_toggle{
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+	background-color: inherit;
+}
+
+
