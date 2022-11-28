@@ -1,0 +1,17 @@
+.about__us__section {
+	width: 90vw;
+	padding: 10em;
+	display: none;
+	
+}
+¨
+.about__us__section--visible{
+	width: 90vw;
+	padding: 10em;
+	display: block;
+}
+
+.about__us__button {
+	cursor: pointer;
+}
+

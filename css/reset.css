@@ -4,17 +4,39 @@
 	padding: none;
 }
 
-
-.menu_toggle{
+.menu-button{
 	border: none;
 	background-color: inherit;
 	font: inherit;
 	cursor: pointer;
+	background-color: inherit;
+}
+
+.about__us__button{
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	cursor: pointer;
+	background-color: inherit;
+}
+
+.collection__main__button {
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	cursor: pointer;
+	background-color: inherit;
+}
+
+.navigation-contact-button {
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	cursor: pointer;
+	background-color: inherit;
 }
 
 li{
 	list-style: none;
 	background-color: inherit;
 }
-
-

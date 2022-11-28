@@ -1,0 +1,50 @@
+.contact-section {
+	width: 90vw;
+	left: 2em;
+	position: absolute;
+	display: none;
+}
+
+.contact-section--visble {
+	width: 90vw;
+	left: 2em;
+	position: absolute;
+	display: none;
+}
+
+.contact-text {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.contact-section {
+	padding: 10em;
+}
+
+
+.question-input {
+	width: 30em;
+	height: 30em;
+	color: black;
+	background-color: pink;
+	border: deeppink 1px solid;
+}
+
+.email-input{
+	background-color: pink;
+	border: deeppink 1px solid;
+	width: 20em;
+}
+
+
+.Submit {
+	background-color: pink;
+	border: deeppink 1px solid;
+	cursor: pointer;
+}
+
+
+
+/*Maybe I should make a popup where it says 
+" congratulation you submitted" */

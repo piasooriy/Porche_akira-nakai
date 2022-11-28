@@ -1,5 +1,14 @@
+/* placement of the navigation controls*/
+/* Don't really know if I need all of these, but hey, it works*/
 
+.navigation-contact-button{
+	cursor: pointer;
+}
 
+.navigation-contact-button__active {
+	display: block;
+	cursor: pointer;
+}
 .header-navigation{
 	display: flex;
 	justify-content: space-between;
@@ -11,8 +20,8 @@
 	display: block;
 }
 
-.header-main {
+
+.navigation-main {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	padding: 1em;
+	grid-template-columns: repeat(3,1fr);	
 }
