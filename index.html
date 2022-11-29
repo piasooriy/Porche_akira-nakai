@@ -8,106 +8,103 @@
 	</head>
 
 	<body>
-		<header class="header-section">
-			<h1 class="rwb-main"> RWB </h1>
-		</header>
-
-		<button class="menu-button">. menu</button>
-		<nav class="header-navigation">
-				<!--Can  use menu instead of ul(?)-->
-			<menu class="navigation-main">
-
+		<section class="hero">
+				<header class="header-section">
+					<h1 class="rwb-main"> RWB </h1>
+				</header>
 			
-				<li class="navigation__about__us"> 
-					<button class="about__us__button">. about us </button>  
-					<!--this about us section will be inside of the collapsible navigation,
-					and it will pop up when clicked. -->
-					<section class="about__us__section  about__us__section--visible">
-						<div class="about__us">
-							hi, this is a section about us. 
-							Thank you for visiting, hope to never see you again!
-						</div>
-					</section>
-				</li>
+
+			<button class="menu-button">. menu</button>
+			<nav class="header-navigation">
+					<!--Can  use menu instead of ul(?)-->
+				<menu class="navigation-main">
+
+				
+					<li class="navigation__about__us"> 
+						<button class="about__us__button">. about us </button>  
+						<!--this about us section will be inside of the collapsible navigation,
+						and it will pop up when clicked. -->
+						<section class="about__us__section">
+							<div class="about__us">
+								hi, this is a section about us. 
+								Thank you for visiting, hope to never see you again!
+							</div>
+						</section>
+					</li>
 
 
-				<li class="navigation__collection">
-					<button class="collection__main__button collection__main__button--active">. collection </button>  
+					<li class="navigation__collection">
+						<button class="collection__main__button">. collection </button>  
 
-					<!--Slideshow section is coming here(but I think it will be under
-					the toggle navigation section)-->
-					<section class="collection collection__visible">
-						<div class="collection__buttons">
-							<button class="previous__button">&leftarrow;</button>
-							<button class="next__button">&rightarrow;</button>
-						</div>
+						<!--Slideshow section is coming here(but I think it will be under
+						the toggle navigation section)-->
+						<section class="collection">
+							<div class="collection__buttons">
+								<button class="previous__button">&leftarrow;</button>
+								<button class="next__button">&rightarrow;</button>
+							</div>
 
-						<div class="collection__pictures">
-							<figure class="collection__picture collection__picture--visible">
-								<img class="collection__image" src="./assets/images/RWB-Rotana-purple.jpg" alt="Purple-RWB">
-							</figure>	
+							<div class="collection__pictures">
+								<figure class="collection__picture collection__picture--visible">
+									<img class="collection__image" src="./assets/images/RWB-Rotana-purple.jpg" alt="Purple-RWB">
+								</figure>	
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/pink.jpg" alt="Pink-RWB">
-							</figure>
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/pink.jpg" alt="Pink-RWB">
+								</figure>
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/hooters.jpg" alt="Hooters-RWB">
-							</figure>	
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/hooters.jpg" alt="Hooters-RWB">
+								</figure>	
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/unicycle.jpg" alt="Unicyle">
-							</figure>	
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/unicycle.jpg" alt="Unicyle">
+								</figure>	
 
-							<figure	class="collection__picture">
-								<img class="collection__image" src="./assets/images/rwb-mauve.jpg" alt="Mauve-RWB">
-							</figure>	
+								<figure	class="collection__picture">
+									<img class="collection__image" src="./assets/images/rwb-mauve.jpg" alt="Mauve-RWB">
+								</figure>	
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/rwb-orange.jpg" alt="Orange-RWB">
-							</figure>	
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/rwb-orange.jpg" alt="Orange-RWB">
+								</figure>	
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/rwb-hello-kitty.png" alt="Hello-Kitty">
-							</figure>
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/rwb-hello-kitty.png" alt="Hello-Kitty">
+								</figure>
 
-							<figure class="collection__picture">
-								<img class="collection__image" src="./assets/images/green.jpg" alt="Green-RWB">
-							</figure>		
-						</div>	
-						<div class="collection__dots">
-							<button class="collection__button__dots collection__button-dots--active"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-							<button class="collection__button__dots"></button>
-						</div>
-					</section>
-				</li>
+								<figure class="collection__picture">
+									<img class="collection__image" src="./assets/images/green.jpg" alt="Green-RWB">
+								</figure>		
+							</div>	
+							<div class="collection__dots">
+								<button class="collection__button__dots collection__button-dots--active"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+								<button class="collection__button__dots"></button>
+							</div>
+						</section>
+					</li>
 
-				<li class="navigation-contact"> 
-					<button class="navigation-contact-button navigation-contact-button__active"> . contact </button>
-					<section class="contact__section contact__section--visible">
-						<div class="contact-text"> This is the section for contacting us</div>
-						<input class="email-input" type="text" placeholder="Don't put your email here">
-						<br>
-						<input class="question-input" type="text" placeholder=" I don't think you have a question">
-						<br>
-						<button class="Submit"> Please don't submit</button>
-					</section>
-				</li>
+					<li class="navigation-contact"> 
+						<button class="navigation__contact__button"> . contact </button>
+						<section class="contact__section">
+							<div class="contact__text"> This is the section for contacting us</div>
+							<input class="email__input" type="text" placeholder="Don't put your email here">
+							<br>
+							<input class="question__input" type="text" placeholder=" I don't think you have a question">
+							<br>
+							<button class="Submit"> Please don't submit</button>
+						</section>
+					</li>
 
-			</menu>
-		</nav>
-
-		<section class="heroimage-section"> 
-			<figure class="heroimage-container heroimage-container__visible">
-				<image class="heroimage" src="./assets/images/porche_kizuna.jpg">
-			</figure>		
-		</section>
+				</menu>
+			</nav>
+		</section>		
 
 		<!-- this is where all the socials will be linked, 
 		preferrebly with the social media logos(should prolly
@@ -116,5 +113,5 @@
 		<!-- 		<footer>
 					<div>social media</div>
 				</footer>
-			</body>
-		</html> -->
+			</body>-->
+</html> 

@@ -4,19 +4,22 @@
 }
 
 .collection {
-		display: flex;
-		justify-content: center;
+	display: none;
 	}
 
+.collection__visible {
+	display: block;
+}
+
 .collection__pictures{
-		display: flex;
-		justify-content: center;
+	display: flex;
+	justify-content: center;
 	}
 	
 .collection__picture{
-		display: none;
-		width: 100%;
-		height: 100%;
+	display: none;
+	width: 100%;
+	height: 100%;
 }
 
 .collection__picture--visible {
@@ -68,10 +71,7 @@
 	color: hotpink;
 }
 
-
-
 /*The dot buttons to navigate between pictures*/ 
-
 
 .collection__dots {
 	position: absolute;
@@ -97,3 +97,6 @@
 maybe like a scrollable version instead of a clickable one*/
 
 
+@media screen {
+	
+}

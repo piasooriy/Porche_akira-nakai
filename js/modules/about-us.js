@@ -1,16 +1,17 @@
 export default function AboutUs () {
 	/* model */
-
    let aboutUsVisible = false; 
-   /* QuerySelectors */
 
+   /* QuerySelectors */
    const aboutUsButton = document.querySelector('.about__us__button');
    const aboutUsSection = document.querySelector('.about__us__section');
 
    /* Event listeners */
-	if (aboutUsButton) {
+
+	/* why do I have to put it in a "if" statement?*/
+
    aboutUsButton.addEventListener('click', handleAboutUsButtonOnClick);
-	}
+
 
    /* Event Handlers */
    function handleAboutUsButtonOnClick(event){

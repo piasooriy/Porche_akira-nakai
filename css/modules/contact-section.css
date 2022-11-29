@@ -1,29 +1,26 @@
-.contact-section {
+.navigation__contact__button {
 	width: 90vw;
 	left: 2em;
-	position: absolute;
-	display: none;
+
 }
 
-.contact-section--visble {
-	width: 90vw;
-	left: 2em;
-	position: absolute;
-	display: none;
-}
-
-.contact-text {
+.contact_text {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 }
 
-.contact-section {
+.contact__section {
 	padding: 10em;
+	display: none;
 }
 
+.contact__section--visible {
+	padding: 10em;
+	display: block;
+}
 
-.question-input {
+.question__input {
 	width: 30em;
 	height: 30em;
 	color: black;
@@ -31,7 +28,7 @@
 	border: deeppink 1px solid;
 }
 
-.email-input{
+.email__input{
 	background-color: pink;
 	border: deeppink 1px solid;
 	width: 20em;
@@ -43,8 +40,6 @@
 	border: deeppink 1px solid;
 	cursor: pointer;
 }
-
-
 
 /*Maybe I should make a popup where it says 
 " congratulation you submitted" */

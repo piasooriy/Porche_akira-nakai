@@ -1,7 +1,7 @@
 export default function Collection () {
 
 	console.log('hei')
-
+	/******* Slidshow *********/
 	/* QuerySelectors */
 	const collection = document.querySelector('.collection');
 	const collectionPicture = document.querySelectorAll('.collection__picture');
@@ -80,8 +80,6 @@ export default function Collection () {
 			buttonDot.classList.remove('collection__button-dots--active')
 		}
 	} */
-		//WHY IS IT NOT WORKING?!?!?!?!?
-
 
 	/* Variables */
 	// I guess we are starting with the first figure when we state that
@@ -109,4 +107,44 @@ export default function Collection () {
 	/* have to figure out why the buttons are not working */
 	/* Maybe the buttons are working, but not the updateCollectionHTML? */
 
+
+
+	/****** Toggle Collection Section*********/
+	// em should I divide is like this or do I put it 
+	//in a new module?
+
+	let collectionVisible = false;
+
+	const collectionMainButton = document.querySelector('.collection__main__button ');
+	/* const collection = document.querySelector('.collection'); */
+	// I already have this, but if I need to make a new module I can use this(?)
+
+	/* EventListener */
+	collectionMainButton.addEventListener('click', handleCollectionMainButtonOnClick);
+
+	/* EventHandlers */
+	function handleCollectionMainButtonOnClick (event) {
+		toggleCollection();
+		renderCollectionHTML();
+	}
+
+	/* Methods */
+
+	function toggleCollection() {
+		collectionVisible = !collectionVisible;
+	}
+
+	/* render */
+
+	function renderCollectionHTML() {
+		if (collectionVisible === true) {
+			collection.classList.add('collection__visible');
+		} else {
+			collection.classList.remove('collection__visible');
+		}
+	}
+
+
 }
+
+

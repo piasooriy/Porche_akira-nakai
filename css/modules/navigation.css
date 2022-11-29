@@ -5,10 +5,11 @@
 	cursor: pointer;
 }
 
-.navigation-contact-button__active {
+ .navigation-contact-button__active {
 	display: block;
 	cursor: pointer;
 }
+
 .header-navigation{
 	display: flex;
 	justify-content: space-between;
