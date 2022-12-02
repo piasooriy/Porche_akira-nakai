@@ -20,12 +20,12 @@
 }
 
 
-.navigation__contact-button{
+.collection__main-button{
 	cursor: pointer;
 }
 
 
-.navigation__contact-button:hover{
+.collection__main-button:hover{
 	color: pink;
 }
 
@@ -71,5 +71,22 @@
 		width: 100vw;
 		height: 100vh;
 	} 
+
+	.menu__button:hover{
+		color: inherit;
+	}
+
+	.about__us-button:hover {
+		color: inherit;
+	}
+
+	.collection__main-button:hover{
+		color: black;
+	}  
+
+	.navigation__contact-button:hover{
+		color: inherit;
+	}  
+	
 
 }
