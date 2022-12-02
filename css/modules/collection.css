@@ -32,7 +32,6 @@
 }  
 
 /***Section for le buttons****/
-/*Gotta figure out where to place le buttons*/ 
 
 .collection__buttons {
 	border-radius: 50%;
@@ -51,6 +50,7 @@
 	top: 20em;
 }
 
+/*making it more pink!*/
 .collection__previous-button:hover {
 	background-color: deeppink;
 }
@@ -99,12 +99,25 @@ maybe like a scrollable version instead of a clickable*/
 
 @media screen and (max-width:768px) {
 
+	/*Removing the buttons, don't need these if 
+	it is a scrollable version*/
 	.collection__button-dots {
 		display: none;
 	}
 	.collection__buttons {
 		display: none;
 	}
+
+	/*Have to get this in a flex and column, this is so that the photos will be scrollable*/
+	.collection__pictures {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 70vw;
+	}
 	
+	.collection__picture {
+		display: block;
+	}
 	
 }

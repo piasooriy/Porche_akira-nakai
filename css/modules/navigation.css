@@ -59,3 +59,17 @@
 	grid-template-columns: repeat(3,1fr);	
 	margin-top: 0;
 }
+
+
+/*MediaQueries*/
+/* the navigation compatible on the phone*/
+
+@media screen and (max-width:768px) {
+	.navigation__main{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		width: 100vw;
+		height: 100vh;
+	} 
+
+}

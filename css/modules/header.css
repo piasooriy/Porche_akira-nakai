@@ -28,3 +28,28 @@ font-family: 'Orbitron', sans-serif;
 font-size: 5em;
 margin: 0;
 }
+
+
+@media screen and (max-width:768px) {
+	.header__section{
+		height: 10vh;
+		width: 50vw;
+		margin: 1.2em;
+	}
+
+	.RWB__header{
+		width: 20vw;
+		height: 50vh;
+		display: flex;
+		justify-content: start;
+
+	}
+
+	@media screen and (max-width:768px) {
+		.RWB__header {
+			display: none;
+		}
+	}
+
+
+}
