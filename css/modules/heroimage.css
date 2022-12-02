@@ -1,12 +1,19 @@
-.hero {
+/* .hero__section{
 	width: 100vw;
 	height: 100vh;
-	background-image: url(/assets/images/porche_kizuna.jpg);
-	background-color: rgb(249, 149, 166);
-
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+} */
+
+
+.hero{
+	background-image: url(/assets/images/porche_kizuna.jpg);
+	background-color: rgb(249, 149, 166);
+	opacity: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
 }
-
-
 

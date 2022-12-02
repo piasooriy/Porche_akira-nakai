@@ -1,17 +1,17 @@
-.about__us__section {
-	width: 90vw;
+.about__us-section {
+	width: 30vw;
 	padding: 10em;
 	display: none;
 	margin-top: 10em;
 }
 
-.about__us__section--visible{
-	width: 90vw;
+.about__us-section--visible{
+	width: 30vw;
 	padding: 10em;
 	display: block;
 }
 
-.about__us__button {
+.about__us-button {
 	cursor: pointer;
 }
 

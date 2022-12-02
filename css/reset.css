@@ -4,7 +4,7 @@
 	padding: none;
 }
 
-.menu-button{
+.menu__button{
 	border: none;
 	background-color: inherit;
 	font: inherit;
@@ -12,7 +12,7 @@
 	background-color: inherit;
 }
 
-.about__us__button{
+.about__us-button{
 	border: none;
 	background-color: inherit;
 	font: inherit;
@@ -20,7 +20,7 @@
 	background-color: inherit;
 }
 
-.collection__main__button {
+.collection__main-button {
 	border: none;
 	background-color: inherit;
 	font: inherit;
@@ -28,7 +28,7 @@
 	background-color: inherit;
 }
 
-.navigation__contact__button {
+.navigation__contact-button {
 	border: none;
 	background-color: inherit;
 	font: inherit;

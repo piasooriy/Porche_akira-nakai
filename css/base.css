@@ -1,7 +1,24 @@
 *{
-	background-color: grey;
+	background-color: #808080;
+	font-family: 'Orbitron', sans-serif;
 }
 
 button :hover {
-	color: pink;
+	background-color: pink;
+	
 }
+
+
+body {
+	margin: 0;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: pink;
+	}
+}
+

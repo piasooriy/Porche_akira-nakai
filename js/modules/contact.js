@@ -1,17 +1,15 @@
 export default function Contact () {
 
-	let contactVisible = !false;
+	let contactVisible = false;
 
 	/* querySelector */
 
-	const contactButton = document.querySelector('.navigation__contact__button');
+	const contactButton = document.querySelector('.navigation__contact-button');
 	const contactSection = document.querySelector('.contact__section');
 
 
 	/* EventListener */
-	//Why do I have to have it in an if statement??
-	if(contactButton){
-	contactButton.addEventListener('click', handleContactButtonOnClick);}
+	contactButton.addEventListener('click', handleContactButtonOnClick);
 
 	/* EventHandler */
 	function handleContactButtonOnClick (event) {
@@ -27,12 +25,14 @@ export default function Contact () {
 
 	/* render */
 
+	//why is the toggle not toggling??
+	//Maybe if I come back to it later it will work?
+
 	function renderContactHTML() {
 		if (contactVisible === true) {
 			contactSection.classList.add('contact__section--visible');
 		} else {
-			contactSection.remove('contact__section--visible');
+			contactSection.classList.remove('contact__section--visible');
 		}
 	}
-
 }

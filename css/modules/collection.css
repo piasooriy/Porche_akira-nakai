@@ -1,9 +1,6 @@
 /***Styling the slideshow placement***/
-.collection__main__button {
-	cursor: pointer;
-}
-
 .collection {
+	/* display: block; */
 	display: none;
 	}
 
@@ -43,7 +40,7 @@
 	align-items: center;
 }
 
-.previous__button {
+.collection__previous-button {
 	border-radius: 20%;
 	border: hotpink solid 1px;
 	cursor: pointer;
@@ -51,17 +48,18 @@
 	position: absolute;
 	background-color: pink;
 	color: hotpink;
+	top: 20em;
 }
 
-.previous__button:hover {
+.collection__previous-button:hover {
 	background-color: deeppink;
 }
 
-.next__button:hover {
+.collection__next-button:hover {
 	background-color: deeppink;
 }
 
-.next__button {
+.collection__next-button {
 	border-radius: 100%;
 	border: hotpink solid 1px;
 	cursor: pointer;
@@ -69,6 +67,7 @@
 	position: absolute;
 	background-color: pink;
 	color: hotpink;
+	top: 20em;
 }
 
 /*The dot buttons to navigate between pictures*/ 
@@ -76,10 +75,11 @@
 .collection__dots {
 	position: absolute;
 	background-color: inherit;
+	display: flex;
+	justify-items: center;
 }
 
-
-.collection__button__dots {
+.collection__button-dots {
 	width: 1em;
 	height: 1em;
 	border: 1px solid hotpink;
@@ -88,15 +88,23 @@
 	cursor: pointer;
 }
 
-.collection__button__dots--active,
-.collection__button__dots:hover {
+.collection__button-dots--active,
+.collection__button-dots:hover {
 	background-color: deeppink;
 }
 
 /*Remember to add mediaQueries so that the site is responsive
-maybe like a scrollable version instead of a clickable one*/
+maybe like a scrollable version instead of a clickable*/
 
 
-@media screen {
+@media screen and (max-width:768px) {
+
+	.collection__button-dots {
+		display: none;
+	}
+	.collection__buttons {
+		display: none;
+	}
+	
 	
 }

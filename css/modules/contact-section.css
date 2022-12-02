@@ -1,26 +1,55 @@
-.navigation__contact__button {
-	width: 90vw;
+.navigation__contact-button {
+	width: 30vw;
 	left: 2em;
-
 }
 
-.contact_text {
+.contact__text {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 }
 
-.contact__section {
+.contact__section{
 	padding: 10em;
+	width: 30vw;
+	height: 100vh;
 	display: none;
 }
 
-.contact__section--visible {
-	padding: 10em;
+/* 
+	B__E--M
+	
+	not B__E__E--M
+
+	1.
+	1.2.
+	1.2.3
+
+	modules/navigation.css
+
+	<div class="navigation">
+		<div class="navigation__contact">
+		<div class="navigation__contact-text">
+		<div class="navigation__section">
+
+		<div class="navigation__question-input">
+	<div>
+
+	modules/question.css
+	<div class="question">
+		<div class="question__input">
+	<div>
+
+	
+*/
+
+.contact__section--visible{
+	width: 30vw;
+	height: 100vh;
 	display: block;
 }
 
-.question__input {
+.question__input{
 	width: 30em;
 	height: 30em;
 	color: black;
@@ -34,12 +63,11 @@
 	width: 20em;
 }
 
-
-.Submit {
+.submit {
 	background-color: pink;
 	border: deeppink 1px solid;
 	cursor: pointer;
 }
 
 /*Maybe I should make a popup where it says 
-" congratulation you submitted" */
+" congratulation you've submitted, we will get back to you as soon as possible" */
