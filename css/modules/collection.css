@@ -1,6 +1,7 @@
 /***Styling the slideshow placement***/
 .collection {
-	/* display: block; */
+	/* display: block; Pia!!!, If you want to put it in a new index, 
+	you need to remove the toggle on all the sub-menus. */
 	display: none;
 	}
 
@@ -70,7 +71,7 @@
 	top: 20em;
 }
 
-/*The dot buttons to navigate between pictures*/ 
+/*The dot buttons to navigate between pictures*/  
 
 .collection__dots {
 	position: absolute;
@@ -109,6 +110,7 @@ maybe like a scrollable version instead of a clickable*/
 	}
 
 	/*Have to get this in a flex and column, this is so that the photos will be scrollable*/
+	/*Wow, it actually works*/
 	.collection__pictures {
 		display: flex;
 		flex-direction: column;

@@ -25,8 +25,9 @@ export default function Contact () {
 
 	/* render */
 
-	//why is the toggle not toggling??
+	//Why is the toggle not toggling??
 	//Maybe if I come back to it later it will work?
+	//Never mind, it works now
 
 	function renderContactHTML() {
 		if (contactVisible === true) {

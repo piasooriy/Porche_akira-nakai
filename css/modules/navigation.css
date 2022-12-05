@@ -1,12 +1,22 @@
 /* placement of the navigation controls*/
 /* Don't really know if I need all of these, but hey, it works*/
+/* also just making sure that the cursor is pointer on the buttons, 
+I could probably just do this in reset or base, but this way I can 
+practice more(?)*/
 
+
+/*Also should look more at BEM here, maybe like navigation__about-us-button,
+this will make everything more cohesive*/
+
+
+/*So like 'navigation__about-us-button' */
 .about__us-button {
 	cursor: pointer;
 }
 .about__us-button:hover {
 	color: pink;
 }
+
 
 .menu__button{
  cursor: pointer;
@@ -15,28 +25,25 @@
  color: pink;
 }
 
+
 .collection__main-button {
 	cursor: pointer;
 }
-
-
-.collection__main-button{
-	cursor: pointer;
-}
-
-
 .collection__main-button:hover{
 	color: pink;
 }
 
 
- .navigation__contact-button {
+.navigation__contact-button {
 	cursor: pointer;
 }
-
 .navigation__contact-button:hover {
   color: pink;
 }
+
+
+/*Placing the .header__navigation section in the correct spot*/ 
+
 
 .header__navigation{
 	display: flex;
@@ -46,6 +53,8 @@
 	width: 100vw;
 	display: none;
 }
+/*Blocking it will make sure that it comes up when the toggle-function
+in javascript runs*/
 
 .header__navigation--visible {
 	display: block;
@@ -54,17 +63,25 @@
 }
 
 
+/*The drop down menu and it's content*/
 .navigation__main {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);	
 	margin-top: 0;
+	/*The height is 100vh to make sure that it covers the entirety of the 
+	hero image when it drops down. If not it will cut down half way down
+	and look odd.*/
+	height: 100vh;
 }
 
 
 /*MediaQueries*/
-/* the navigation compatible on the phone*/
+/* the navigation compatible on a smaller screen*/
+
 
 @media screen and (max-width:768px) {
+	/*the navigation section should become smaller
+	with the button going under eachother */
 	.navigation__main{
 		display: grid;
 		grid-template-columns: repeat(1,1fr);
@@ -72,6 +89,8 @@
 		height: 100vh;
 	} 
 
+
+	/*Removing the pink hover, because that does not work on the phone anyways*/ 
 	.menu__button:hover{
 		color: inherit;
 	}
