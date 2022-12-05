@@ -1,3 +1,12 @@
+
+.collection__main-button {
+	cursor: pointer;
+}
+.collection__main-button:hover{
+	color: pink;
+}
+
+
 /***Styling the slideshow placement***/
 .collection {
 	/* display: block; Pia!!!, If you want to put it in a new index, 

@@ -1,22 +1,3 @@
-/* placement of the navigation controls*/
-/* Don't really know if I need all of these, but hey, it works*/
-/* also just making sure that the cursor is pointer on the buttons, 
-I could probably just do this in reset or base, but this way I can 
-practice more(?)*/
-
-
-/*Also should look more at BEM here, maybe like navigation__about-us-button,
-this will make everything more cohesive*/
-
-
-/*So like 'navigation__about-us-button' */
-.about__us-button {
-	cursor: pointer;
-}
-.about__us-button:hover {
-	color: pink;
-}
-
 
 .menu__button{
  cursor: pointer;
@@ -24,23 +5,6 @@ this will make everything more cohesive*/
 .menu__button:hover{
  color: pink;
 }
-
-
-.collection__main-button {
-	cursor: pointer;
-}
-.collection__main-button:hover{
-	color: pink;
-}
-
-
-.navigation__contact-button {
-	cursor: pointer;
-}
-.navigation__contact-button:hover {
-  color: pink;
-}
-
 
 /*Placing the .header__navigation section in the correct spot*/ 
 

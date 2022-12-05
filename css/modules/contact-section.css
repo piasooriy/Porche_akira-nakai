@@ -1,4 +1,12 @@
 
+
+.navigation__contact-button {
+	cursor: pointer;
+}
+.navigation__contact-button:hover {
+  color: pink;
+}
+
 .contact__text {
 	display: flex;
 	justify-content: center;
@@ -13,6 +21,8 @@
 }
 
 /* 
+	~Comment from Alejandro~
+
 	B__E--M
 	
 	not B__E__E--M

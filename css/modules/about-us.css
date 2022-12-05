@@ -1,14 +1,20 @@
+.about__us-button {
+	cursor: pointer;
+}
+.about__us-button:hover {
+	color: pink;
+}
+
 .about__us-section {
 	width: 30vw;
-	padding: 10em;
 	display: none;
-	margin-top: 10em;
+	padding: 0;
 }
 
 .about__us-section--visible{
 	width: 30vw;
-	padding: 10em;
 	display: block;
+	margin-top: 5em;
 }
 
 .about__us-button {
