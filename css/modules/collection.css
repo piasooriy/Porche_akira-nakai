@@ -132,3 +132,19 @@ maybe like a scrollable version instead of a clickable*/
 	}
 	
 }
+
+/* So that the buttons are visible when it overlays on top of the contact 
+screen when scaled down*/
+/*Should preferrebly have a different approach to this, 
+maybe making the contact section change color, or maybe make sure that 
+you can't toggle more than one sub menu, won't have this issue if 
+only one of the sub menus are '--active' */
+@media screen and (max-width:1596px) {
+	.collection__previous-button {
+		background-color: deeppink;
+	}
+	
+	.collection__next-button {
+		background-color: deeppink;
+	}
+}
