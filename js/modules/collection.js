@@ -115,7 +115,7 @@ export default function Collection () {
 
 	const collectionMainButton = document.querySelector('.collection__main-button ');
 	/* const collection = document.querySelector('.collection'); */
-	// Pia, you already have this, but if you need to make a new module you can use this
+	// You already have this, but if you need to make a new module you can use this
 	//you're welcome <3
 
 	/* EventListener */
